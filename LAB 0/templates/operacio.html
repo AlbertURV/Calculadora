@@ -1,0 +1,20 @@
+{% block tittle %} Pagina de operacions{% endblock %}
+
+{% block content %}
+<form action="#" method="post">
+    <p>Numero 1:</p>
+    <p><input type="number" name="num1" /></p>
+    <p>Numero 2:</p>
+    <p><input type="number" name="num2" /></p>
+    <p>Operacio:</p>
+    <select id="operate" name="operate">
+        <option value="suma">suma</option>
+        <option value="resta">resta</option>
+        <option value="multiplicar">multiplicar</option>
+        <option value="dividir">dividir</option>
+      </select>
+
+    <p><input type="submit" value="submit" /> </p>
+</form>
+
+{% endblock %}
